@@ -1,24 +1,37 @@
-# README
+# Rails course practices
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> This is dummy code for practicing git
 
-Things you may want to cover:
+### Tasks
 
-* Ruby version
+ - Creation of git repository
+ - Modify elements
+ - Remove elements from git
+ - Test markdown notation
 
-* System dependencies
+### Code
 
-* Configuration
+```ruby
+def my_foo
+  version = 1.0
+  puts "This is my foo function"
+  puts "Foo version #{version}"
+end
+```
+```javascript
+const doit = function() {
+  console.log("Do it !");
+  alert("hello"); 
+}
+```
 
-* Database creation
+```python
 
-* Database initialization
+lst = [ i * i for i in range(1,11)]
 
-* How to run the test suite
+for x in lst:
+  print(x)
 
-* Services (job queues, cache servers, search engines, etc.)
+```
 
-* Deployment instructions
 
-* ...
